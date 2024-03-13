@@ -41,6 +41,7 @@ export function resultView(params: { goTo: (arg0: string) => void; }): HTMLDivEl
     const button = div.querySelector('button')!;
     button.onclick = () => {
         state.resetState();
+        state.setState(state.getState());
         params.goTo('/play');
     }
     return div;
