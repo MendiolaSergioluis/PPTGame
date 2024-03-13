@@ -67,13 +67,11 @@ const state= {
         this.setState(this.data);
 
     },
-
     subscribe(callback: (arg: unknown) => unknown): void {
         // Take the callback and add it to the listeners array
         // @ts-ignore
         this.listeners.push(callback);
     },
-
 }
 
 export {

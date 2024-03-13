@@ -23,13 +23,13 @@ export function playView(params: { goTo: (arg0: string) => unknown; }): HTMLDivE
             </div>
             <div class="images">
                 <button>
-                <img src="/img/tijera.svg" alt="tijera" class="image scissors">
+                    <img src="/img/tijera.svg" alt="tijera" class="image scissors">
                 </button>
                 <button>
-                <img src="/img/piedra.svg" alt="piedra" class="image rock">
+                    <img src="/img/piedra.svg" alt="piedra" class="image rock">
                 </button>
                 <button>
-                <img src="/img/papel.svg" alt="papel" class="image paper">
+                    <img src="/img/papel.svg" alt="papel" class="image paper">
                 </button>
             </div>
         `;

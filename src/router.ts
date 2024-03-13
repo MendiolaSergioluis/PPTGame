@@ -57,7 +57,6 @@ export function initRouter(rootEl: Element): void {
         router(uri);
     }
 
-
     // Ejecuta el router con la ruta tomada de la url
     router(location.pathname);
 

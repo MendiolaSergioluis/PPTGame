@@ -1,5 +1,5 @@
 import './style.css'
-import { initRouter} from "./router.ts";
+import { initRouter } from "./router.ts";
 
 const root: Element = document.querySelector<HTMLDivElement>('body')!
 
